@@ -1,0 +1,13 @@
+prefix=D:/NETWORK ANALYSIS/venv/Library
+exec_prefix=D:/NETWORK ANALYSIS/venv/Library
+libdir=D:/NETWORK ANALYSIS/venv/Library/lib
+sharedlibdir=D:/NETWORK ANALYSIS/venv/Library/lib
+includedir=D:/NETWORK ANALYSIS/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
