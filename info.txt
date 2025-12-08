@@ -1,0 +1,2 @@
+certifi-root packages it is used by python libraries, needed to make a secure http connection
+certifi.where() retrieves the path to the ca(certificate authorities reqd for SSL connection) certificates and  
